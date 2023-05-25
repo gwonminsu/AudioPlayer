@@ -17,6 +17,9 @@
 		6DE2123B2A1EDD87005A4E9D /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE2123A2A1EDD87005A4E9D /* AudioPlayerTests.swift */; };
 		6DE212452A1EDD88005A4E9D /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE212442A1EDD88005A4E9D /* AudioPlayerUITests.swift */; };
 		6DE212472A1EDD88005A4E9D /* AudioPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE212462A1EDD88005A4E9D /* AudioPlayerUITestsLaunchTests.swift */; };
+		6DE212542A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */; };
+		6DE212562A1EF645005A4E9D /* Best Part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212552A1EF645005A4E9D /* Best Part.mp3 */; };
+		6DE212582A1EF7D2005A4E9D /* Juice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212572A1EF7D2005A4E9D /* Juice.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		6DE212402A1EDD88005A4E9D /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE212442A1EDD88005A4E9D /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		6DE212462A1EDD88005A4E9D /* AudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
+		6DE212552A1EF645005A4E9D /* Best Part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best Part.mp3"; sourceTree = "<group>"; };
+		6DE212572A1EF7D2005A4E9D /* Juice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Juice.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		6DE2121F2A1EDD86005A4E9D /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6DE212552A1EF645005A4E9D /* Best Part.mp3 */,
+				6DE212572A1EF7D2005A4E9D /* Juice.mp3 */,
+				6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */,
 				6DE212202A1EDD86005A4E9D /* AppDelegate.swift */,
 				6DE212222A1EDD86005A4E9D /* SceneDelegate.swift */,
 				6DE212242A1EDD86005A4E9D /* ViewController.swift */,
@@ -235,7 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE212302A1EDD87005A4E9D /* LaunchScreen.storyboard in Resources */,
+				6DE212582A1EF7D2005A4E9D /* Juice.mp3 in Resources */,
+				6DE212542A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 in Resources */,
 				6DE2122D2A1EDD87005A4E9D /* Assets.xcassets in Resources */,
+				6DE212562A1EF645005A4E9D /* Best Part.mp3 in Resources */,
 				6DE212282A1EDD86005A4E9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
