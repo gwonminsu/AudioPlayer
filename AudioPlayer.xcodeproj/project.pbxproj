@@ -20,6 +20,11 @@
 		6DE212542A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */; };
 		6DE212562A1EF645005A4E9D /* Best Part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212552A1EF645005A4E9D /* Best Part.mp3 */; };
 		6DE212582A1EF7D2005A4E9D /* Juice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212572A1EF7D2005A4E9D /* Juice.mp3 */; };
+		6DE212652A1F01CD005A4E9D /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212612A1F01CD005A4E9D /* stop.png */; };
+		6DE212662A1F01CD005A4E9D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212622A1F01CD005A4E9D /* pause.png */; };
+		6DE212672A1F01CD005A4E9D /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212632A1F01CD005A4E9D /* record.png */; };
+		6DE212682A1F01CD005A4E9D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212642A1F01CD005A4E9D /* play.png */; };
+		6DE2126A2A1F0651005A4E9D /* give_me_meal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE212692A1F0651005A4E9D /* give_me_meal.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 		6DE212552A1EF645005A4E9D /* Best Part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best Part.mp3"; sourceTree = "<group>"; };
 		6DE212572A1EF7D2005A4E9D /* Juice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Juice.mp3; sourceTree = "<group>"; };
+		6DE212612A1F01CD005A4E9D /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		6DE212622A1F01CD005A4E9D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		6DE212632A1F01CD005A4E9D /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		6DE212642A1F01CD005A4E9D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		6DE212692A1F0651005A4E9D /* give_me_meal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = give_me_meal.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,11 @@
 		6DE2121F2A1EDD86005A4E9D /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6DE212692A1F0651005A4E9D /* give_me_meal.jpeg */,
+				6DE212622A1F01CD005A4E9D /* pause.png */,
+				6DE212642A1F01CD005A4E9D /* play.png */,
+				6DE212632A1F01CD005A4E9D /* record.png */,
+				6DE212612A1F01CD005A4E9D /* stop.png */,
 				6DE212552A1EF645005A4E9D /* Best Part.mp3 */,
 				6DE212572A1EF7D2005A4E9D /* Juice.mp3 */,
 				6DE212532A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 */,
@@ -244,8 +259,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE212302A1EDD87005A4E9D /* LaunchScreen.storyboard in Resources */,
+				6DE212682A1F01CD005A4E9D /* play.png in Resources */,
+				6DE2126A2A1F0651005A4E9D /* give_me_meal.jpeg in Resources */,
+				6DE212672A1F01CD005A4E9D /* record.png in Resources */,
 				6DE212582A1EF7D2005A4E9D /* Juice.mp3 in Resources */,
+				6DE212662A1F01CD005A4E9D /* pause.png in Resources */,
 				6DE212542A1EE5DB005A4E9D /* Sicilian_Breeze.mp3 in Resources */,
+				6DE212652A1F01CD005A4E9D /* stop.png in Resources */,
 				6DE2122D2A1EDD87005A4E9D /* Assets.xcassets in Resources */,
 				6DE212562A1EF645005A4E9D /* Best Part.mp3 in Resources */,
 				6DE212282A1EDD86005A4E9D /* Main.storyboard in Resources */,
